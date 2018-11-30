@@ -1,0 +1,61 @@
+body{
+	font-size: 14px;
+}
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #000
+}
+li{
+	list-style: none
+}
+button{
+	border-radius: 5px;
+}
+
+#app{
+	min-width: 1200px;
+	min-height: 100vh;
+	padding: 140px 0px 0px 200px;
+	position: relative;
+}
+.flex{
+	display: flex;
+}
+.jc-ce{
+	justify-content: center;
+}
+.al-ce{
+	align-items: center;
+}
+.jc-sa{
+	justify-content: space-around;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.fd-co{
+	flex-direction: column;
+}
+
+.center{
+	text-align: center;
+}
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
+.cp{
+	cursor: pointer;
+}
+
+
+.colorFFF{
+	color: #fff
+}

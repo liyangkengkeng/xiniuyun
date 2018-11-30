@@ -1,0 +1,61 @@
+/*成功和失败提示框*/
+.my-app-success{
+	position: fixed;
+	left: 50%;
+	top: 50px;
+	background: rgba(0,0,0,.2);
+	padding: 20px 40px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+}
+.my-app-success img{
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+}
+
+/*询问提示框*/
+.my-app-ask{
+	min-width: 200px;
+	max-width: 400px;
+	position: fixed;
+	left: 50%;
+	top: 50px;
+	background: rgba(0,0,0,.2);
+	padding: 20px 40px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.my-app-ask-data{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.my-app-ask-data img{
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	flex-shrink: 0;
+}
+.my-app-ask-data span{
+	padding: 0px 5px;
+}
+.my-app-ask-btn-box{
+	text-align: right;
+	margin-top: 20px;
+}
+.my-app-ask-btn-box button{
+	padding: 5px 10px;
+	background:transparent;
+	border:1px solid #7b7a7a;
+	color: #fff;
+	border-radius: 5px;
+}
+.my-app-ask-btn-box .my-app-ask-btn1{
+	margin-right: 10px;
+}
+.my-app-ask-btn-box .my-app-ask-btn2{
+	background: #74d255
+}
